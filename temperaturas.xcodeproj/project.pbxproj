@@ -22,6 +22,10 @@
 		0C24AE23199F920100E742E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C24AE02199F920100E742E0 /* UIKit.framework */; };
 		0C24AE2B199F920100E742E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C24AE29199F920100E742E0 /* InfoPlist.strings */; };
 		0C24AE2D199F920100E742E0 /* temperaturasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C24AE2C199F920100E742E0 /* temperaturasTests.m */; };
+		0C24AE37199F97B900E742E0 /* Termometro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C24AE36199F97B900E742E0 /* Termometro.jpg */; };
+		0C24AE3A199F9F5300E742E0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C24AE39199F9F5300E742E0 /* ThirdViewController.m */; };
+		0C24AE43199FA12700E742E0 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C24AE42199FA12700E742E0 /* FourthViewController.m */; };
+		0CD10FD8199FA1D300A7F378 /* Temperaturados.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD10FD7199FA1D300A7F378 /* Temperaturados.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,13 @@
 		0C24AE28199F920100E742E0 /* temperaturasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "temperaturasTests-Info.plist"; sourceTree = "<group>"; };
 		0C24AE2A199F920100E742E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C24AE2C199F920100E742E0 /* temperaturasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temperaturasTests.m; sourceTree = "<group>"; };
+		0C24AE36199F97B900E742E0 /* Termometro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Termometro.jpg; sourceTree = "<group>"; };
+		0C24AE38199F9F5300E742E0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0C24AE39199F9F5300E742E0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		0C24AE41199FA12700E742E0 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		0C24AE42199FA12700E742E0 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		0CD10FD6199FA1D300A7F378 /* Temperaturados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temperaturados.h; sourceTree = "<group>"; };
+		0CD10FD7199FA1D300A7F378 /* Temperaturados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temperaturados.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,12 @@
 		0C24ADF2199F920100E742E0 = {
 			isa = PBXGroup;
 			children = (
+				0CD10FD6199FA1D300A7F378 /* Temperaturados.h */,
+				0CD10FD7199FA1D300A7F378 /* Temperaturados.m */,
+				0C24AE41199FA12700E742E0 /* FourthViewController.h */,
+				0C24AE42199FA12700E742E0 /* FourthViewController.m */,
+				0C24AE38199F9F5300E742E0 /* ThirdViewController.h */,
+				0C24AE39199F9F5300E742E0 /* ThirdViewController.m */,
 				0C24AE04199F920100E742E0 /* temperaturas */,
 				0C24AE26199F920100E742E0 /* temperaturasTests */,
 				0C24ADFD199F920100E742E0 /* Frameworks */,
@@ -118,6 +135,7 @@
 				0C24AE0D199F920100E742E0 /* AppDelegate.h */,
 				0C24AE0E199F920100E742E0 /* AppDelegate.m */,
 				0C24AE10199F920100E742E0 /* Main.storyboard */,
+				0C24AE36199F97B900E742E0 /* Termometro.jpg */,
 				0C24AE13199F920100E742E0 /* FirstViewController.h */,
 				0C24AE14199F920100E742E0 /* FirstViewController.m */,
 				0C24AE16199F920100E742E0 /* SecondViewController.h */,
@@ -236,6 +254,7 @@
 				0C24AE1A199F920100E742E0 /* Images.xcassets in Resources */,
 				0C24AE09199F920100E742E0 /* InfoPlist.strings in Resources */,
 				0C24AE12199F920100E742E0 /* Main.storyboard in Resources */,
+				0C24AE37199F97B900E742E0 /* Termometro.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C24AE43199FA12700E742E0 /* FourthViewController.m in Sources */,
 				0C24AE18199F920100E742E0 /* SecondViewController.m in Sources */,
+				0CD10FD8199FA1D300A7F378 /* Temperaturados.m in Sources */,
+				0C24AE3A199F9F5300E742E0 /* ThirdViewController.m in Sources */,
 				0C24AE0F199F920100E742E0 /* AppDelegate.m in Sources */,
 				0C24AE15199F920100E742E0 /* FirstViewController.m in Sources */,
 				0C24AE0B199F920100E742E0 /* main.m in Sources */,
@@ -462,6 +484,7 @@
 				0C24AE32199F920100E742E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C24AE33199F920100E742E0 /* Build configuration list for PBXNativeTarget "temperaturasTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +493,7 @@
 				0C24AE35199F920100E742E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

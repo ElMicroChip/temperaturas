@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	temp = [[Temperaturados alloc]
+            init];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)setCtoF:(id)sender {
+    _userResult.text= [temp setctof:[_userValue.text floatValue]];
+    [self.view endEditing:YES];
+}
+
+- (IBAction)setFtoC:(id)sender {
+    _userResult.text= [temp setftoc:[_userValue.text floatValue]];
+    [self.view endEditing:YES];
+}
 @end
